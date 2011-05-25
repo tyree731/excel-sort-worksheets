@@ -1,0 +1,4 @@
+This is a VBA script that will sort the worksheets in a given Excel workbook 
+for you based on the worksheet name. To make this work for you, you'll need 
+to create a macro enabled workbook and copy in this VBA code manually. Other
+than that it should work out of the box.
