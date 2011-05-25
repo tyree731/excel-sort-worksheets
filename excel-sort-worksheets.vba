@@ -25,6 +25,12 @@ End Function
 
 Sub SortWorksheetsHelper(B_I As Integer, E_I As Integer)
     If (B_I < E_I) Then
+        ' Everything in VBA is passed by reference unless you make a copy
+        Dim B_I_Copy As Integer
+        B_I_Copy = B_I
+        Dim E_I_Copy As Integer
+        E_I_Copy = E_I
+
         Dim PivotIndex As Integer
         PivotIndex = Partition(B_I, E_I)
 
